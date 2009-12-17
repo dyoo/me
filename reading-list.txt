@@ -1,3 +1,18 @@
 Read conference on lisp and functional programming.
 
 http://portal.acm.org/toc.cfm?id=800087&coll=ACM&dl=ACM&type=proceeding&idx=SERIES288&part=series&WantType=Proceedings&title=LFP&CFID=67142805&CFTOKEN=70867818
+
+
+History of programming languages
+http://portal.acm.org/browse_dl.cfm?linked=1&part=series&idx=SERIES003&coll=ACM&dl=ACM&CFID=67142805&CFTOKEN=70867818
+
+
+ICFP
+
+http://portal.acm.org/browse_dl.cfm?linked=1&part=series&idx=SERIES824&coll=ACM&dl=ACM&CFID=67142805&CFTOKEN=70867818
+
+
+POPL
+
+
+http://portal.acm.org/browse_dl.cfm?linked=1&part=series&idx=SERIES317&coll=ACM&dl=ACM&CFID=67142805&CFTOKEN=70867818
