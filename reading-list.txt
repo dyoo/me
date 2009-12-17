@@ -1,0 +1,3 @@
+Read conference on lisp and functional programming.
+
+http://portal.acm.org/toc.cfm?id=800087&coll=ACM&dl=ACM&type=proceeding&idx=SERIES288&part=series&WantType=Proceedings&title=LFP&CFID=67142805&CFTOKEN=70867818
