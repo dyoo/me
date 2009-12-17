@@ -16,3 +16,8 @@ POPL
 
 
 http://portal.acm.org/browse_dl.cfm?linked=1&part=series&idx=SERIES317&coll=ACM&dl=ACM&CFID=67142805&CFTOKEN=70867818
+
+
+CACM
+
+http://portal.acm.org/browse_dl.cfm?linked=1&part=magazine&idx=J79&coll=ACM&dl=ACM&CFID=67142805&CFTOKEN=70867818
