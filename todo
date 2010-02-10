@@ -1,0 +1,116 @@
+Projects
+
+    Moby
+        Structured error messages
+        Comprehensive error handling and testing of edge cases
+
+    WeScheme
+        Networked universe games
+        General performance
+
+    Directed Research paper
+
+Misc
+
+
+Supervise Caner: he should be doing image primitives image primitives next
+
+Attack the issues on the github tracker.  http://github.com/dyoo/moby-scheme/issues/
+
+Pull more of the test suite from PLT Scheme into Moby.
+
+investigate race condition in loading sounds for the bell ringer; Shriram was seeing very bad, nondeterministic behavior when loading resources.
+
+add color structures to moby.
+
+add Moby define-runtime-resource, so we can package local file resources.
+
+Fix the js-bidirectional-input form and let Manu and Arjun know.
+   The contract isn't working from the DrScheme side of things.
+   The rendering of the input form isn't working either.
+
+follow up with arjun on his algebra game.  See "world/universe for GUIs" thread.  Show him the js-input form.
+
+
+figure out what's happening with baduk clock and missing clicks.  Shriram says:
+It's not clear that one must press SPACE to switch in the clock.  I
+kept trying to CLICK and nothing happened.  This seems like a bad UI.
+(This is on Chrome 3.)
+
+    - appears to be related to the dom updating code.
+
+
+add testing support to Moby:
+
+    add testing harness that works with random
+
+In lullaby:
+
+    In Lullaby, display the title of the song, until you get to the point of playing the whole playlist.
+
+    document playlists.
+
+    fix the playlist-playing feature so it can play multiple songs, and verify that the Lullaby program is robust against pressing play, pause, and stop in rapid succession.
+
+    Add a pause between songs in the silencing music player.
+
+    add explode-playlist and join-playlist forms.
+
+For Baduk Clock:
+
+    Address issues with baduk-clock.ss:  * Sometimes button clicks aren't registering. This seems to be a bug in jsworld. I don't know yet what the root cause is, but I'll put on my TODO to investigate it sometime after the demo. * The app runs a bit slowly on both the iPhone and the G1. I need to profile where the time is going.
+
+    add a button for starting / pausing the baduk clock, and really make it an application by putting it on the respective Google and Apple App Stores.
+
+
+Add title to the generated index.html in Moby so that programs are properly named when loaded from a web browser.
+
+change Rolling out of Time to use css attributes to control motion.
+
+add 'choose contact' to the phonegap list of features.
+
+
+WeScheme items
+
+
+I told you MONTHS ago that it was really annoying that from the
+"Manage" console of WeScheme, one can't open up multiple tabs w/
+multiple programs.  (Only a moron w/out basic understanding of the Web
+would have created this interface in the first place.)  You said you'd
+fix it right away.  Nothing's changed.
+
+
+Add personalized file template.  "Hi I am wondering if scheme stores an empty file like other programs, becuase i'd like to edit it so it has a comment header everytime i open it?"
+
+
+> 1) Roll back the 'rendering thunk' hack we made for IE, so that images are > rendered at the right time. This will restore animated GIF functionality on > non-IE browsers. Basically, just restore the old behavior as it was written > in August.
+
+> 2) Replace it with the 'invisible div' hack I sent you a few weeks ago, > where we add the canvas to the DOM twice: Once as the child of an invisible > DIV, which will case excanvas to draw properly, and then again a the correct > time as a child of the interactions window.
+
+
+fill in prose content for the bottom links of the WeScheme splash screen.  Also add an explanatory phrase to the splash.  Link up interesting examples from the about page, such as:
+    spinning matthias: http://www.wescheme.org/view?publicId=royal-belie-beady-heist-snipe
+    walking dog: http://www.wescheme.org/view?publicId=denim-aloha-tacky-guide-naive
+    moving circle: http://www.wescheme.org/view?publicId=shoal-trite-imbue-ghoul-beech
+    counting program: http://www.wescheme.org/view?publicId=tread-roost-dumpy-blaze-oxide
+    pulse: http://www.wescheme.org/view?publicId=track-style-macho-omega-value
+
+modify error reporting to highlight the syntax rather than just say where it is.
+
+test how-to-design program solutions on WeScheme: make sure it works without errors!http://www.htdp.org/servlets/passwords.scm
+
+when logged in, opening a new file should automatically save it, without prompting from the user.
+
+look at widgetpad http://widgetpad.com/; compare and contrast against WeScheme.
+
+write bulk source downloader/uploader synchronization for wescheme.
+
+make the share dialog accessible from the console
+
+use dojo compressor on bespin; see how fast it loads with it
+
+modify semantics of share so you can share programs that can't be run.
+
+add admin interface to regenerate compiled programs, and do bulk load/restore of programs
+
+add bug submission link to wescheme interface
