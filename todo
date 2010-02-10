@@ -3,6 +3,7 @@ Toplevel projects
 Moby
     Structured error messages
     Comprehensive error handling and testing of edge cases
+    Supervise Caner and Ethan
 
 WeScheme
     Networked universe games
@@ -10,7 +11,7 @@ WeScheme
 
 Directed Research paper
 
-Misc
+Miscellaneous tasks
 
 
 ======================================================================
@@ -27,6 +28,14 @@ Moby's structured error messages
 Moby's error handling and testing of edge cases
 
 [What needs to be done here?  Break it into tasks.]
+
+
+----------------------------------------------------------------------
+
+Moby: supervise Caner and Ethan
+
+[What needs to be done here?  Break it into tasks.]
+
 
 ----------------------------------------------------------------------
 
@@ -59,7 +68,12 @@ Directed Reseach paper
 Misc
 
 
-Supervise Caner: he should be doing image primitives image primitives next
+Pay $20 to WPI for tuition stuff.  Visit Banner.
+
+Remind Paul Suranyi when wescheme is usable.
+
+Buy plane tickets for Tina's wedding.  Also make sure the dates are good with Shriram and Kathi.  Around the weekend of April 24.
+
 
 Attack the issues on the github tracker.  http://github.com/dyoo/moby-scheme/issues/
 
@@ -67,28 +81,13 @@ Pull more of the test suite from PLT Scheme into Moby.
 
 investigate race condition in loading sounds for the bell ringer; Shriram was seeing very bad, nondeterministic behavior when loading resources.
 
-add color structures to moby.
 
 add Moby define-runtime-resource, so we can package local file resources.
 
-Fix the js-bidirectional-input form and let Manu and Arjun know.
-   The contract isn't working from the DrScheme side of things.
-   The rendering of the input form isn't working either.
 
-follow up with arjun on his algebra game.  See "world/universe for GUIs" thread.  Show him the js-input form.
+add testing support to Moby: add testing harness that works with random
 
 
-figure out what's happening with baduk clock and missing clicks.  Shriram says:
-It's not clear that one must press SPACE to switch in the clock.  I
-kept trying to CLICK and nothing happened.  This seems like a bad UI.
-(This is on Chrome 3.)
-
-    - appears to be related to the dom updating code.
-
-
-add testing support to Moby:
-
-    add testing harness that works with random
 
 In lullaby:
 
@@ -129,11 +128,6 @@ fix it right away.  Nothing's changed.
 Add personalized file template.  "Hi I am wondering if scheme stores an empty file like other programs, becuase i'd like to edit it so it has a comment header everytime i open it?"
 
 
-> 1) Roll back the 'rendering thunk' hack we made for IE, so that images are > rendered at the right time. This will restore animated GIF functionality on > non-IE browsers. Basically, just restore the old behavior as it was written > in August.
-
-> 2) Replace it with the 'invisible div' hack I sent you a few weeks ago, > where we add the canvas to the DOM twice: Once as the child of an invisible > DIV, which will case excanvas to draw properly, and then again a the correct > time as a child of the interactions window.
-
-
 fill in prose content for the bottom links of the WeScheme splash screen.  Also add an explanatory phrase to the splash.  Link up interesting examples from the about page, such as:
     spinning matthias: http://www.wescheme.org/view?publicId=royal-belie-beady-heist-snipe
     walking dog: http://www.wescheme.org/view?publicId=denim-aloha-tacky-guide-naive
@@ -141,7 +135,6 @@ fill in prose content for the bottom links of the WeScheme splash screen.  Also 
     counting program: http://www.wescheme.org/view?publicId=tread-roost-dumpy-blaze-oxide
     pulse: http://www.wescheme.org/view?publicId=track-style-macho-omega-value
 
-modify error reporting to highlight the syntax rather than just say where it is.
 
 test how-to-design program solutions on WeScheme: make sure it works without errors!http://www.htdp.org/servlets/passwords.scm
 
