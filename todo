@@ -3,7 +3,7 @@ Toplevel projects
 Moby
     Structured error messages
     Comprehensive error handling and testing of edge cases
-    Supervise Caner and Ethan
+    Supervise Caner and Ethan and Noah
 
 WeScheme
     Networked universe games
@@ -32,9 +32,21 @@ Moby's error handling and testing of edge cases
 
 ----------------------------------------------------------------------
 
-Moby: supervise Caner and Ethan
+Moby: supervise Caner and Ethan and Noah
 
-[What needs to be done here?  Break it into tasks.]
+
+Get feedback from Ethan re: how does his code work, and where aer the
+test cases?
+
+Get feedback from Caner re: how does psyntax work.  What do we need to
+do to support it.
+
+When things are further along, ask: can we use Caner's work to rewrite
+the a-normalizer in macros?
+
+
+Find out from Noah what he needs to make progress.
+
 
 
 ----------------------------------------------------------------------
@@ -68,11 +80,21 @@ Directed Reseach paper
 Misc
 
 
+Fill out FAFSA
+
 Pay $20 to WPI for tuition stuff.  Visit Banner.
 
 Remind Paul Suranyi when wescheme is usable.
 
 Buy plane tickets for Tina's wedding.  Also make sure the dates are good with Shriram and Kathi.  Around the weekend of April 24.
+
+
+Port Dana's frogger game over to wescheme
+
+Address Emmanuel's question about scaling the window.  See "Screen Scaling" thread.
+
+
+Port Universe.ss over to wescheme.
 
 
 Attack the issues on the github tracker.  http://github.com/dyoo/moby-scheme/issues/
