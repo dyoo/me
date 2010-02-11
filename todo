@@ -5,10 +5,6 @@ Moby
     Comprehensive error handling and testing of edge cases
     Supervise Caner and Ethan and Noah
 
-WeScheme
-    Networked universe games
-    General performance
-
 Directed Research paper
 
 Miscellaneous tasks
@@ -20,14 +16,20 @@ Miscellaneous tasks
 
 Moby's structured error messages
 
-[What needs to be done here?  Break it into tasks.]
+Add test cases for the DOM generators.
+Add support for printing out structures.
+Add introspective support for structures.  Get procedure name, arguments.
 
 ----------------------------------------------------------------------
 
 
 Moby's error handling and testing of edge cases
 
-[What needs to be done here?  Break it into tasks.]
+Go through the forms
+
+    local begin set! lambda application case let let* quasiquote
+
+and make sure they are exercised thoroughly.
 
 
 ----------------------------------------------------------------------
@@ -48,25 +50,9 @@ the a-normalizer in macros?
 Find out from Noah what he needs to make progress.
 
 
-
 ----------------------------------------------------------------------
 
-WeScheme Networked universe games
-
-[What needs to be done here?  Break it into tasks.]
-
-
-
-----------------------------------------------------------------------
-
-WeScheme General performance
-
-[What needs to be done here?  Break it into tasks.]
-
-
-----------------------------------------------------------------------
-
-Directed Reseach paper
+Directed Research paper
 
 [What needs to be done here?  Break it into tasks.]
 
@@ -79,6 +65,9 @@ Directed Reseach paper
 
 Misc
 
+Reenable wescheme compiler
+
+Make web service to create android packages.
 
 Fill out FAFSA
 
@@ -88,14 +77,11 @@ Remind Paul Suranyi when wescheme is usable.
 
 Buy plane tickets for Tina's wedding.  Also make sure the dates are good with Shriram and Kathi.  Around the weekend of April 24.
 
-
 Port Dana's frogger game over to wescheme
 
 Address Emmanuel's question about scaling the window.  See "Screen Scaling" thread.
 
-
 Port Universe.ss over to wescheme.
-
 
 Attack the issues on the github tracker.  http://github.com/dyoo/moby-scheme/issues/
 
@@ -167,8 +153,6 @@ look at widgetpad http://widgetpad.com/; compare and contrast against WeScheme.
 write bulk source downloader/uploader synchronization for wescheme.
 
 make the share dialog accessible from the console
-
-use dojo compressor on bespin; see how fast it loads with it
 
 modify semantics of share so you can share programs that can't be run.
 
