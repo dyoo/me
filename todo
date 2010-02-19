@@ -16,7 +16,6 @@ Miscellaneous tasks
 
 Moby's structured error messages
 
-Add test cases for the DOM generators.
 Add support for printing out structures.
 Add introspective support for structures.  Get procedure name, arguments.
 
@@ -26,10 +25,11 @@ Add introspective support for structures.  Get procedure name, arguments.
 Moby's error handling and testing of edge cases
 
 Go through the forms
-
     local begin set! lambda application case let let* quasiquote
-
 and make sure they are exercised thoroughly.
+
+
+Integrate all the tests together so they can be run as a single unit.
 
 
 ----------------------------------------------------------------------
@@ -47,16 +47,17 @@ When things are further along, ask: can we use Caner's work to rewrite
 the a-normalizer in macros?
 
 
-Find out from Noah what he needs to make progress.
-
 
 ----------------------------------------------------------------------
 
 Directed Research paper
 
-[What needs to be done here?  Break it into tasks.]
 
+Collect list of the other papers we need to read.
 
+Diagram similarities and differences between the papers.
+
+Start writing the review paper.
 
 
 
@@ -66,8 +67,6 @@ Directed Research paper
 Misc
 
 Reenable wescheme compiler
-
-Make web service to create android packages.
 
 Fill out FAFSA
 
