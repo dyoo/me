@@ -1,0 +1,108 @@
+Random thoughts and notes about The Art of War, by Sun Zhu.
+----------------------------------------------------------------------
+
+Banners and flags are tools for managing crowds. So are torches,
+drrumbs, and gongs.
+
+Axioms of war: don't go fighting uphill.  Don't attack and army at
+bay, or a fleeing army.
+
+"Th3ere are roads not to take.  There are armies not to attack."
+
+There are a lot of datatypes.  the datatypes are typically flat.  For
+example,
+
+CalamitiesOfTheGeneral ::= Flight | Impotence | Decay | Collapse |
+Chaos | Rout.  This is the way of defeat.
+
+
+Terrain is a huge factor.  Not only tdo the state of the participanets
+matter, but the venue.
+
+"To the question: How should we confront numerous and well arrayed,
+poised to attack? My reply is: seize something he cherishes, and he
+will do your will."
+
+
+There's a comment to fight where retreat is impossible.  Basically,
+do-or-die situations.
+
+Paradox: "Success in war lies in scrutinzing enemy intentions and
+going with them."  I can see why Go theory is often compared to The
+Art of War: the above is a recommendation when playing Go as well.
+
+
+Dynamic values, such as Fire and Wind, are also factors of terrain.
+
+
+Espionage is invaluable.  It can't be guessed or predicted: "It can be
+obtained only from men, from those who know the enemy's dispoitions."
+
+Some of the datatypes are a little off.  "There are five sorts of
+spies: Local, Internal, Double, Dead, Live."  Since a spy may have
+mixtures of these properties, this is actually not a flat datatypes.
+
+
+
+Fundamentals of war:
+    * The way: the will to control or be controlled
+    * Heaven: what can not be controlled, beyond the reach of war?
+    * Earth: what can be contested
+    * Command: the tools of control
+    * Discipline: the act of control
+
+Plants taht are good will dictated success.
+
+Decetion is the way of war.  "Strike with Chaos."
+
+What are the "temple calculations"?
+
+There's a rationalization of victory: whoever has the most will win.
+War becomes a maximization problem.
+
+
+How much is one thousand taels of silver?
+
+Supply lines ,the upkeep of war, is expensive.  Wars must not linger.
+
+"No nation has ever benefited from a protrated war."  Hmmmm...
+
+Supply lines: avoid them if you can.
+
+Use the enemy: use spoils of war.  Use victory over the enemy to
+enhance your own strength.
+
+"He who kows neither self nor enemy will fail in every battle."
+
+Forms and dispositions: first defend, to be invunerable, then wait for
+an opponents vunerability to attack.
+
+An interesting idea: the victorious army is victorious first, and
+seeks battle later.  The defeated army does battle first, and seeks
+victory later.
+
+
+
+There is a Design Recipe for war describe in the book:
+
+   - Measurement
+   - Estimation
+   - Calculation
+   - Comparison
+   - Victory      (Profit!)
+
+
+Potential energy.  Division: hierarchies of structure to manage big
+numbers.  Use the idea of representation.
+
+The number "five" comes up a lot.  Five notes, five colors, five
+flavors, etc.
+
+Ther's also an argument that there are an infinite number of words
+with a finite alphabet. Cute combinatorics comments.
+
+First on the battlefield, wait for the enemy fresh.
+
+Outnumber your enemy, and coordinate.
+
+The form of victory is fluid and unrepeatable.
