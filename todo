@@ -4,6 +4,8 @@ Moby
     Structured error messages
     Comprehensive error handling and testing of edge cases
     Supervise Caner and Ethan and Noah
+    Manage subprojects
+
 
 Directed Research paper
 
@@ -37,28 +39,48 @@ Integrate all the tests together so they can be run as a single unit.
 Moby: supervise Caner and Ethan and Noah
 
 
-Get feedback from Ethan re: how does his code work, and where aer the
+Get feedback from Ethan re: how does his code work, and where are the
 test cases?
 
 Get feedback from Caner re: how does psyntax work.  What do we need to
-do to support it.
+do to support it.  When things are further along, ask: can we use
+Caner's work to rewrite the a-normalizer in macros?
 
-When things are further along, ask: can we use Caner's work to rewrite
-the a-normalizer in macros?
+    - Caner has no time to do this right now.
 
+
+
+Moby: Manage subprojects
+
+    These are subprojects that need attention by someone:
+
+        SMS event handlers: provide an on-sms-receive event hook.
+        jsworld2
+        js-numbers
+        universe
+        image library
+
+    We need to write tutorial documentation for examples, such as
+
+        hello world
+        calculator
+        flag designer
+        sketchpad
+        chasing the mouse
+        a mashup
 
 
 ----------------------------------------------------------------------
 
 Directed Research paper
 
+Break out tasks that I need to do:
 
-Collect list of the other papers we need to read.
+    Write a table of features, and pick out what elements are in each
+    environment
 
-Diagram similarities and differences between the papers.
-
-Start writing the review paper.
-
+    Write paragraphs involving the environment, separate from the
+    paragraphs involving the programming language itself.
 
 
 ======================================================================
@@ -66,7 +88,8 @@ Start writing the review paper.
 
 Misc
 
-Reenable wescheme compiler
+Double check the output from the web-compiler.  What programs are
+people submitting?
 
 Fill out FAFSA
 
