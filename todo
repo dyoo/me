@@ -5,6 +5,7 @@ Moby
     Comprehensive error handling and testing of edge cases
     Supervise Caner and Ethan and Noah
     Manage subprojects
+    Rewrite the test suite
 
 
 Directed Research paper
@@ -59,6 +60,7 @@ Moby: Manage subprojects
         js-numbers
         universe
         image library
+        3d opengl world
 
     We need to write tutorial documentation for examples, such as
 
@@ -68,6 +70,14 @@ Moby: Manage subprojects
         sketchpad
         chasing the mouse
         a mashup
+
+----------------------------------------------------------------------
+
+Rewrite the test suite
+
+    The Moby test suite MUST use the PLT Scheme tests verbatim.  We
+    need to write a program to adapt the test suite.
+
 
 
 ----------------------------------------------------------------------
