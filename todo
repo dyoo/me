@@ -6,7 +6,9 @@ Moby
     Supervise Caner and Ethan and Noah
     Manage subprojects
     Rewrite the test suite
+    Work on the VM
 
+WeScheme
 
 Directed Research paper
 
@@ -21,6 +23,8 @@ Moby's structured error messages
 
 Add support for printing out structures.
 Add introspective support for structures.  Get procedure name, arguments.
+Fix regression: if js-dom is ill-formed, the error message doesn't give anything useful!
+
 
 ----------------------------------------------------------------------
 
@@ -78,20 +82,28 @@ Rewrite the test suite
     The Moby test suite MUST use the PLT Scheme tests verbatim.  We
     need to write a program to adapt the test suite.
 
+----------------------------------------------------------------------
+
+Work on the VM
+
+    Write program to map the list of primitive operations
+    Translate a simple program from htdp world to the VM
+    Adjust Moby compiler to take VM output
+    Look at Casey Klein's model of the MzScheme VM in PLT Redex.
+        See redex/examples/mzscheme-machine in svn
+
+----------------------------------------------------------------------
+WeScheme
+
+    integrate emmanuel's changes to contact/about pages
+
 
 
 ----------------------------------------------------------------------
 
 Directed Research paper
 
-Break out tasks that I need to do:
-
-    Write a table of features, and pick out what elements are in each
-    environment
-
-    Write paragraphs involving the environment, separate from the
-    paragraphs involving the programming language itself.
-
+    Add images
 
 ======================================================================
 ======================================================================
