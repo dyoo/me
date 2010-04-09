@@ -1,20 +1,60 @@
 Toplevel projects
 
 Moby
-    Structured error messages
-    Comprehensive error handling and testing of edge cases
-    Supervise Caner and Ethan and Noah
-    Manage subprojects
-    Rewrite the test suite
     Work on the VM
 
 WeScheme
+
+Moby
+    Supervise Caner and Ethan and Noah and Ugur
+    Structured error messages (maybe obsolete)
+    Comprehensive error handling and testing of edge cases ()
+    Manage subprojects
+    Rewrite the test suite
+
+
 
 Miscellaneous tasks
 
 
 ======================================================================
 ======================================================================
+
+
+Work on the VM
+
+    Write program to map the list of primitive operations
+    Translate a simple program from htdp world to the VM
+    Adjust Moby compiler to take VM output
+    Look at Casey Klein's model of the MzScheme VM in PLT Redex.
+        See redex/examples/mzscheme-machine in svn
+
+
+----------------------------------------------------------------------
+
+
+WeScheme
+
+    figure out best editor for wescheme
+        what's the list of options?
+    integrate emmanuel's changes to contact/about pages
+
+
+----------------------------------------------------------------------
+Moby: supervise Caner and Ethan and Noah and Ugur
+
+
+    Get feedback from Ethan re: how does his code work, and where are
+    the test cases?
+
+    Get feedback from Caner re: how does psyntax work.  What do we
+    need to do to support it.  When things are further along, ask: can
+    we use Caner's work to rewrite the a-normalizer in macros?
+
+    - Caner has no time to do this right now.
+
+
+----------------------------------------------------------------------
 
 
 Moby's structured error messages
@@ -39,17 +79,7 @@ Integrate all the tests together so they can be run as a single unit.
 
 ----------------------------------------------------------------------
 
-Moby: supervise Caner and Ethan and Noah
-
-
-Get feedback from Ethan re: how does his code work, and where are the
-test cases?
-
-Get feedback from Caner re: how does psyntax work.  What do we need to
-do to support it.  When things are further along, ask: can we use
-Caner's work to rewrite the a-normalizer in macros?
-
-    - Caner has no time to do this right now.
+----------------------------------------------------------------------
 
 
 
@@ -81,23 +111,6 @@ Rewrite the test suite
     need to write a program to adapt the test suite.
 
 ----------------------------------------------------------------------
-
-Work on the VM
-
-    Write program to map the list of primitive operations
-    Translate a simple program from htdp world to the VM
-    Adjust Moby compiler to take VM output
-    Look at Casey Klein's model of the MzScheme VM in PLT Redex.
-        See redex/examples/mzscheme-machine in svn
-
-----------------------------------------------------------------------
-WeScheme
-
-    integrate emmanuel's changes to contact/about pages
-    figure out best editor for wescheme
-        what's the list of options?
-
-
 ======================================================================
 ======================================================================
 
