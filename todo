@@ -5,12 +5,13 @@ Moby
 
 WeScheme
 
+    Experiement with online editors.
+
 Moby
     Supervise Caner and Ethan and Noah and Ugur
+    Manage subprojects
     Structured error messages (maybe obsolete)
     Comprehensive error handling and testing of edge cases ()
-    Manage subprojects
-    Rewrite the test suite
 
 
 
@@ -23,11 +24,19 @@ Miscellaneous tasks
 
 Work on the VM
 
+    Make the mzscheme basic test suite pass on mzscheme-vm
+        Add primitives
+        Subset the tests so we can actually run them.
+        Collect list of the primitives we need
+        
+
+    Make a simple world program run under mzscheme-vm
+        Again, add primitives as necessary
+
+        Also, look at batch compiler and figure out how to 
+
     Write program to map the list of primitive operations
     Translate a simple program from htdp world to the VM
-    Adjust Moby compiler to take VM output
-    Look at Casey Klein's model of the MzScheme VM in PLT Redex.
-        See redex/examples/mzscheme-machine in svn
 
 
 ----------------------------------------------------------------------
@@ -105,10 +114,6 @@ Moby: Manage subprojects
 
 ----------------------------------------------------------------------
 
-Rewrite the test suite
-
-    The Moby test suite MUST use the PLT Scheme tests verbatim.  We
-    need to write a program to adapt the test suite.
 
 ----------------------------------------------------------------------
 ======================================================================
