@@ -2,17 +2,10 @@ Toplevel projects
 
 Moby
     Work on the VM
-
-WeScheme
-
-    Experiement with online editors.
-
-Moby
     Supervise Caner and Ethan and Noah and Ugur
     Manage subprojects
     Structured error messages (maybe obsolete)
     Comprehensive error handling and testing of edge cases ()
-
 
 
 Miscellaneous tasks
@@ -30,23 +23,7 @@ Work on the VM
         Collect list of the primitives we need
         
 
-    Make a simple world program run under mzscheme-vm
-        Again, add primitives as necessary
-
-        Also, look at batch compiler and figure out how to 
-
-    Write program to map the list of primitive operations
-    Translate a simple program from htdp world to the VM
-
-
 ----------------------------------------------------------------------
-
-
-WeScheme
-
-    figure out best editor for wescheme
-        what's the list of options?
-    integrate emmanuel's changes to contact/about pages
 
 
 ----------------------------------------------------------------------
@@ -70,23 +47,7 @@ Moby's structured error messages
 
 Add support for printing out structures.
 Add introspective support for structures.  Get procedure name, arguments.
-Fix regression: if js-dom is ill-formed, the error message doesn't give anything useful!
 
-
-----------------------------------------------------------------------
-
-
-Moby's error handling and testing of edge cases
-
-Go through the forms
-    local begin set! lambda application case let let* quasiquote
-and make sure they are exercised thoroughly.
-
-
-Integrate all the tests together so they can be run as a single unit.
-
-
-----------------------------------------------------------------------
 
 ----------------------------------------------------------------------
 
@@ -124,11 +85,12 @@ Misc
 Double check the output from the web-compiler.  What programs are
 people submitting?
 
-Fill out FAFSA
 
 Remind Paul Suranyi when wescheme is usable.
 
+
 Port Dana's frogger game over to wescheme
+
 
 Address Emmanuel's question about scaling the window.  See "Screen Scaling" thread.
 
