@@ -1,0 +1,25 @@
+Thesis statement:
+
+ Programming environments can effectively run on the Web and interact
+ with Web-based resources, while overcoming the difficulties imposed
+ by the dominant Web programming platforms.
+
+The document:
+
+- introduces the concept of a Web-based programming environment
+- discusses design choices
+- describes why we picked ours (tried two ways!)
+- talks about the current, working system and its use
+- explains that once something runs on the Web, there are now new
+ opportunities/demands for it:
+ -- client-side Web computation (mashups, etc.)
+ -- server-side Web computation
+ -- running the Web on new platforms (eg, phones)
+- extensions to world/universe to handle these platforms
+ -- need a notion of effects
+ -- need to design Web world
+ -- need to make Web and Ajax integrate [not yet done]
+- handles the difficulties of the operating environment
+ -- nesting things in JavaScript is dangerous; so how to obtain
+    nested big-bang?
+ -- need enough performance [not yet done]
