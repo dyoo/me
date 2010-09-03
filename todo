@@ -1,56 +1,42 @@
-Toplevel projects
-
-Moby
-    Work on the VM
-    Supervise Caner and Ethan and Noah and Ugur
-    Manage subprojects
-    Structured error messages (maybe obsolete)
-    Comprehensive error handling and testing of edge cases ()
-
-
-Miscellaneous tasks
-
-
-======================================================================
-======================================================================
-
-
-Work on the VM
-
-    Make the mzscheme basic test suite pass on mzscheme-vm
-        Add primitives
-        Subset the tests so we can actually run them.
-        Collect list of the primitives we need
-        
-
-----------------------------------------------------------------------
+September
+- CRITICAL: testing, benchmarking/profiling
+- CRITICAL: schedule proposal meeting, discuss proposal
+- CRITICAL: finish module loading (p4p as test case)
+- CRITICAL: reply to UBC, cc: Shriram on all mail
+- CRITICAL: update to Dean Edwards IE9.js
+- CRITICAL: IE8 support
+- ONE DAY: IE7
+- BUG: check-expect silently fails when comparing anything using place-image
+- BUG: paul's "first-run" place-image bug (** E tests)
+- BUG: CodeMirror in interactions window: copy and paste should work
+- BUG: In saving UI, "save" should be grayed out until a valid name is entered
+- CodeMirror in interactions window: reflect DrRacket interaction keystrokes in WeScheme
+- Speed: preload img/js
+- Integrate Maps support
+- "manage" should be "programs" until there's more stuff to be managed
+- INVESTIGATE: animated GIFs / video / etc
+- INVESTIGATE: track onUnload()
+- INVESTIGATE: deps.js 404?
+- CHECK FOR UPDATE FROM CHROME: Chrome spellcheck
 
 
-----------------------------------------------------------------------
-Moby: supervise Caner and Ethan and Noah and Ugur
 
 
-    Get feedback from Ethan re: how does his code work, and where are
-    the test cases?
 
-    Get feedback from Caner re: how does psyntax work.  What do we
-    need to do to support it.  When things are further along, ask: can
-    we use Caner's work to rewrite the a-normalizer in macros?
 
-    - Caner has no time to do this right now.
+
+replace glass cup for arjun $1.
+read matt.might.net/articles/how-to-native-iphone-ipad-apps-in-javascript
+write go game recorder
+revisit libming
+look at android's app inventor http://appinventor.googlelabs.com/about/
+
+
+
+
 
 
 ----------------------------------------------------------------------
-
-
-Moby's structured error messages
-
-Add support for printing out structures.
-Add introspective support for structures.  Get procedure name, arguments.
-
-
-----------------------------------------------------------------------
-
 
 
 Moby: Manage subprojects
@@ -136,14 +122,9 @@ change Rolling out of Time to use css attributes to control motion.
 add 'choose contact' to the phonegap list of features.
 
 
+
+
 WeScheme items
-
-
-I told you MONTHS ago that it was really annoying that from the
-"Manage" console of WeScheme, one can't open up multiple tabs w/
-multiple programs.  (Only a moron w/out basic understanding of the Web
-would have created this interface in the first place.)  You said you'd
-fix it right away.  Nothing's changed.
 
 
 Add personalized file template.  "Hi I am wondering if scheme stores an empty file like other programs, becuase i'd like to edit it so it has a comment header everytime i open it?"
